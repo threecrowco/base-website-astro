@@ -18,8 +18,10 @@
     "@datocms/astro": "^0.3.4",
     "astro": "^4.15.9",
     "astro-embed": "^0.7.2",
+    "astro-font": "^0.1.81",
     "astro-icon": "^1.1.1",
     "astro-pocketbase": "^0.8.0",
+    "astro-vtbot": "^1.10.2",
     "graphql-request": "^7.1.0",
     "pocketbase": "^0.21.5",
     "tailwindcss": "^3.4.13"
