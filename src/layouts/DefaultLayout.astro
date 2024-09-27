@@ -1,0 +1,15 @@
+---
+const { title } = Astro.props;
+import Header from "../components/structure/Header.astro";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{title}</title>
+    </head>
+    <body class="antialiased">
+        <Header pageTitle={title} />
+        <slot />
+    </body>
+</html>
